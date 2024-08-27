@@ -1,15 +1,36 @@
 <!DOCTYPE html>
-<html lang="es-mx">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador</title>
+    <title> Encriptador</title>
+    <link rel="stylesheet" href="..//Proyecto Alura/style.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="vector" href="https://www.aluracursos.com/" >
-            <img src="..//Proyecto Alura/Assets/Vector.png">
-        </nav>
-    
+    <header>
+        <h1>Encriptador & Desencriptador de Texto</h1>
+    </header>
+
+    <main>
+        <section class="input-section">
+            <textarea id="input-text" placeholder="Ingrese el texto aquí..."></textarea>
+        </section>
+
+        <section class="button-section">
+            <button id="encrypt-btn">Encriptar</button>
+            <button id="decrypt-btn">Desencriptar</button>
+            <button id="copy-btn">Copiar</button>
+        </section>
+
+        <section class="output-section">
+            <textarea id="output-text" readonly placeholder="El texto resultante aparecerá aquí..."></textarea>
+        </section>
+    </main>
+
+    <footer>
+        <p>Andromenesis, gracias a Alura Latam</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
